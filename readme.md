@@ -1,4 +1,4 @@
-### 路由與控制器 (如下圖表示) 
+### ＊路由與控制器 (如下圖表示) 
  **1. 路由 :** 
 -  **"route('home')"** 和 **"/"** 皆導向 **"HomePageController@ index"** ，若未通過 
    Middleware('auth') 則導向 "route('login')"。
@@ -12,7 +12,7 @@
 
 [![php aritsan route:list](https://i.imgur.com/173M5nM.jpg "php aritsan route:list")](https://i.imgur.com/173M5nM.jpg "php aritsan route:list")
 
-### Model模型 (參考Web/app )
+### ＊Model模型 (參考Web/app )
 **1. Comment :**
 - 與post 模型關係 : 一對多(一個post可以有很多comments) 
    
@@ -36,13 +36,13 @@
   回傳使用者喜歡或不喜歡此文章。
 
 
-### Migration (參考Web/database/migrations底下.php檔案)
+### ＊Migration (參考Web/database/migrations底下.php檔案)
  - 新增6種tabl至資料庫 - **users/password/posts/comments/likethumbs/friendship**
 
-### Layouts (參考Web/resources/views底下.php檔案)
+### ＊Layouts (參考Web/resources/views底下.php檔案)
  - 所有皆繼承 **/layouts/page.blade.php**
 
-### 工具
+### ＊工具
 - **Laravel Version :** Laravel Framework 5.6.5
 - **PHP Version :** PHP 7.2.2
 - **MySQL Version:**
