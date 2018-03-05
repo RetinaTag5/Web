@@ -37,7 +37,7 @@
 
 
 ### ＊Migration (參考 [Web/database/migrations](https://github.com/RetinaTag5/Web/tree/master/database/migrations) 底下.php檔案)
- - 新增6種tabl至資料庫 - **users/password/posts/comments/likethumbs/friendship**
+ - 新增6種模型至資料庫 - **users/password/posts/comments/likethumbs/friendship**
 
 ### ＊Layouts (參考 [Web/resources/views](https://github.com/RetinaTag5/Web/tree/master/resources/views) 底下.php檔案)
  - 所有皆繼承 **/layouts/page.blade.php**
